@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome On My Personal Homepage
 
-You can use the [editor on GitHub](https://github.com/ArieRS/ariers.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am lecturer at State Polytechnic of Malang. My research interest include machine learning, computer vision. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Publication 
+1. [PARTICLE SWARM OPTIMIZATION (PSO) FOR TRAINING OPTIMIZATION ON CONVOLUTIONAL NEURAL NETWORK (CNN).](http://jiki.cs.ui.ac.id/index.php/jiki/article/viewFile/366/237)
+2. [Ellipse detection on embryo image using modification of arc Particle Swarm Optimization (ArcPSO) based arc segment.](https://www.researchgate.net/profile/Wisnu_Jatmiko/publication/304413046_Ellipse_detection_on_embryo_image_using_modification_of_arc_Particle_Swarm_Optimization_ArcPSO_based_arc_segment/links/57a04d9a08aec29aed21e304.pdf)
+3. [ELLIPSE DETECTION ON EMBRYO IMAGING USING RANDOM SAMPLE CONSENSUS (RANSAC) METHOD BASED ON ARC SEGMENT.](http://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=11785608&AN=124235718&h=bsQa0aEMpH5rQpHjCdlK92wYdmwUwttA4lpvSk8PJIlkT%2FL3qvHGo2%2BT8SqtLaA2sWQke0bBeLdpZLkDAjxvAA%3D%3D&crl=c)
+4. [Learning semantic segmentation score in weakly supervised convolutional neural network.](http://ieeexplore.ieee.org/abstract/document/7562845/)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ArieRS/ariers.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Contact:
+email : arie.rachmad.s@gmail.com
+github : [ariers](https://github.com/ArieRS)
