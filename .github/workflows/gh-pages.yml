@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ s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 }}
+          github_token: s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
           publish_dir: ./public
