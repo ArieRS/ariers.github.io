@@ -23,12 +23,6 @@ Table 1. Experiment Result
 | BiGRU1  |     BiGRU(128) + BiGRU(64) + Dense(64) + BiGRU(32) + Dense(64) + Dense(32) + BatchNormalization + Dense (10)                                      | 56%      | 0,75       |
 | BiGRU2  |     BiGRU(128) + Dropout(0,2) + Dense(64)   + BiGRU(64) + Dropout(0,2) + Dense(64) +   BiGRU(32) + Dense(32) + BatchNormalization + Dense (10)    | 50%      | 0,69       |
 
-Table 2. Additional Experiment Result
-| Method  | Architecture                                                                                                                                      | Accuracy | Time (Sec) |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|
-| MVRC1   | 450 Reservoir                                                                                                                                     | 56%      | 0,22       |
-| MVRC2   | 550 Reservoir                                                                                                                                     | 67%      | 0,28       |
-
 
 References
 #### [1] M. Yasumuro and K. Jin’no, Nonlinear Theory Its Appl. IEICE, 13 (2), pp. 288–293, 2022.
