@@ -1,8 +1,9 @@
 baseURL: "https://examplesite.com/"
-title: ExampleSite
+title: Arie's Blog
 paginate: 5
 theme: PaperMod
 
+# robot
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -16,13 +17,13 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Arie's Blog
+  description: "This my personal blog. I will put my publication, tutorial and achievement here."
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "December 2, 2022"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -68,8 +69,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Publication
+        url: publication
 
   # home-info mode
   homeInfoParams:
@@ -77,12 +78,12 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: Google Scholar
+      url: "https://scholar.google.co.id/citations?hl=en&user=uWkPfW8AAAAJ&view_op=list_works&authuser=1&sortby=pubdate"
+    - name: Scopus
+      url: "https://www.scopus.com/authid/detail.uri?authorId=57189241716"
+    - name: Twitter
+      url: "https://twitter.com/ariers"
 
   analytics:
     google:
@@ -114,18 +115,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: publication
+      name: Publication
+      url: /publication/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
