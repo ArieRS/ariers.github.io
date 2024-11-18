@@ -1,6 +1,6 @@
 ## Welcome On My Personal Homepage
 
-I am lecturer at State Polytechnic of Malang. My research interest include machine learning, computer vision. 
+I am a lecturer at the State Polytechnic of Malang. My research interests include machine learning and computer vision. I am currently enrolled in a PhD program at the Kyushu Institute of Technology in Japan. My research concerns low-resource computing, with a particular focus on reservoir computing.
 
 #### Publication 
 1. [PARTICLE SWARM OPTIMIZATION (PSO) FOR TRAINING OPTIMIZATION ON CONVOLUTIONAL NEURAL NETWORK (CNN).](http://jiki.cs.ui.ac.id/index.php/jiki/article/viewFile/366/237)
@@ -11,4 +11,5 @@ I am lecturer at State Polytechnic of Malang. My research interest include machi
 #### Contact:
 email : arie.rachmad.s@gmail.com  
 github : [ariers](https://github.com/ArieRS)  
-linkedin : [ariers](https://id.linkedin.com/in/ariers)  
+linkedin : [ariers](https://id.linkedin.com/in/ariers)
+google scholar : [https://scholar.google.co.id](https://scholar.google.co.id/citations?hl=en&user=uWkPfW8AAAAJ)
