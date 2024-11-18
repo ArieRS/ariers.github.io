@@ -9,7 +9,7 @@ I am a lecturer at the State Polytechnic of Malang. My research interests includ
 4. [Learning semantic segmentation score in weakly supervised convolutional neural network.](http://ieeexplore.ieee.org/abstract/document/7562845/)
 
 #### Contact:
-email : arie.rachmad.s@gmail.com  
-github : [ariers](https://github.com/ArieRS)  
-linkedin : [ariers](https://id.linkedin.com/in/ariers)
-google scholar : [https://scholar.google.co.id](https://scholar.google.co.id/citations?hl=en&user=uWkPfW8AAAAJ)
+- email : arie.rachmad.s@gmail.com  
+- github : [ariers](https://github.com/ArieRS)  
+- linkedin : [ariers](https://id.linkedin.com/in/ariers)
+- google scholar : [https://scholar.google.co.id](https://scholar.google.co.id/citations?hl=en&user=uWkPfW8AAAAJ)
