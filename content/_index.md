@@ -4,17 +4,6 @@ date: 2025-11-03T12:00:00+09:00
 draft: false
 layout: home
 ---
-<style>
-/* reduce hero title size */
-.site-title, .page-title, h1 { font-size: 1.8rem !important; }
-
-/* limit content width and left-align text */
-.entry-content, .content, .post-content, .container {
-  max-width: 860px !important;
-  margin: 0 auto !important;
-  text-align: left !important;
-}
-</style>
 
 ## Welcome On My Personal Homepage
 
