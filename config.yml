@@ -2,7 +2,7 @@ baseURL: "https://ariers.github.io"
 title: Arie's Blog
 pagination: 
   paperSize: 5
-theme: ananke
+theme: cleanwhite
 
 # robot
 enableRobotsTXT: true

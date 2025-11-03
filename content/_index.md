@@ -3,7 +3,6 @@ title: ""
 date: 2025-11-03T12:00:00+09:00
 draft: false
 layout: home
-type: home
 ---
 <style>
 /* reduce hero title size */
