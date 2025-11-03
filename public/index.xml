@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arie&#39;s Blog</title>
-    <link>https://ariers.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Arie&#39;s Blog</description>
-    <image>
-      <url>https://ariers.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ariers.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Dec 2022 10:52:03 +0900</lastBuildDate><atom:link href="https://ariers.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The 4th International Symposium on Neuromorphic AI Hardware</title>
-      <link>https://ariers.github.io/publication/neuromorphic_symposium2022/</link>
-      <pubDate>Thu, 08 Dec 2022 10:52:03 +0900</pubDate>
-      
-      <guid>https://ariers.github.io/publication/neuromorphic_symposium2022/</guid>
-      <description>Deep Learning Method on Word Level American Sign Language Recognition from Video Arie Rachmad Syulistyo1, Yuichiro Tanaka2, and Hakaru Tamukoh1,2 1 Graduate School of Life Science and Systems Engineering, Kyushu Institute of Technology 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan 2 Research Center for Neuromorphic AI Hardware, Kyushu Institute of Technology 2-4 Hibikino, Wakamatsu, Kitakyushu, 808-0196, Japan Recently, the number of American sign language (ASL) learners is increasing and there are many materials of sign language such as video and software that can be installed in handphones.</description>
+      <title></title>
+      <link>http://localhost:1313/publication/neuromorphic_symposium2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/neuromorphic_symposium2022/</guid>
+      <description></description>
     </item>
-    
   </channel>
 </rss>

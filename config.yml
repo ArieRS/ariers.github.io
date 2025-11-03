@@ -1,7 +1,8 @@
 baseURL: "https://ariers.github.io"
 title: Arie's Blog
-paginate: 5
-theme: PaperMod
+pagination: 
+  paperSize: 5
+theme: ananke
 
 # robot
 enableRobotsTXT: true
@@ -57,15 +58,14 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: "Arie's Blog"
+    subtitle: "AI Learner| Researcher | Developer"
+    imageUrl: "/images/arie.jpeg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Arie
     buttons:
       - name: Posts
         url: posts
