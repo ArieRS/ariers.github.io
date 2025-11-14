@@ -12,7 +12,7 @@ permalink: pretty
 # gh_sponsor: chrisrhymes
 # theme: default
 # bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme@v1.3.0
+remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
