@@ -1,0 +1,377 @@
+<!doctype html>
+<html
+    dir="ltr"
+    lang="en"
+    class="  theme-light "
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>My new book title!</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="My new book title!" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This is my personal website where I share my projects, blog posts, and more." />
+<meta property="og:description" content="This is my personal website where I share my projects, blog posts, and more." />
+<link rel="canonical" href="http://localhost:4000/promo-page/" />
+<meta property="og:url" content="http://localhost:4000/promo-page/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="My new book title!" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"This is my personal website where I share my projects, blog posts, and more.","headline":"My new book title!","url":"http://localhost:4000/promo-page/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        <a href="#main-content" class="is-sr-only skip-link"> Skip to main content </a>
+
+        
+            <div class="">
+    <div class="container py-6 px-4" id="cookieBanner">
+        <div class="columns">
+            <div class="column is-fullwidth ">
+                <div class="content">
+                    <p>We use cookies on this site to enhance your user experience</p>
+                    <p>
+                        By clicking the Accept button, you agree to us doing so.
+                        <a href="/cookie-policy/">More info on our cookie policy</a>
+                    </p>
+                </div>
+
+                <div class="buttons mt-4">
+                    <button class="button is-primary" onclick="acceptCookies()">Accept all cookies</button>
+                    <button class="button is-primary" onclick="rejectCookies()">Reject all cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>
+
+        
+        <nav
+    class="navbar is-primary "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <section class="hero hero-banner is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-centered">
+                        <div class="column is-6-tablet is-6-desktop">
+                            <h1 class="title is-1">My new book title!</h1>
+                            
+                                <p class="subtitle is-1">Example promo page</p>
+                            
+
+                            <div class="card mt-6">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis volutpat dignissim.</p>
+
+<p>Pellentesque facilisis non urna a suscipit. Aenean et accumsan lorem. Donec diam ex, egestas at fermentum at, sagittis at diam. Nulla vitae lectus nec nulla faucibus gravida.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    
+                                        <div class="card-footer-item">
+                                            <a href="#" class="button is-large is-primary">Buy now!</a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-6-tablet is-6-desktop is-relative">
+                            <figure class="image is-4by5">
+                                <img src="https://picsum.photos/id/171/800/1000" alt="The hero image alt text">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="section mt-6">
+                <div class="container">
+                    <div class="columns is-centered is-multiline">
+                        <div class="column is-full">
+                            <h2 class="title is-3 mb-3 has-text-centered">Reviews</h2>
+                        </div>
+                        
+                            <div class="column is-4-desktop is-6-tablet">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <article class="media">
+    <figure class="media-left">
+        
+            <p class="image is-48x48">
+                <img src="https://i.pravatar.cc/128?img=56" alt="Mr Example" class="is-rounded">
+            </p>
+        
+    </figure>
+    <div class="media-content">
+        <div class="content">
+            <p>
+                <strong>Mr Example</strong> <small>01/01/2019</small>
+                <br>
+                <strong>Great product, highly recommended</strong>
+                <br>
+                The product worked really well. I would recommend this to most people to use. Delivery was quick and reasonable.  Would recommend this to my friends. 
+
+            </p>
+        </div>
+        
+            <div class="content  has-text-left ">
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+    
+    
+        <span class="icon">
+            <i class="far fa-star"></i>
+        </span>
+    
+</div>
+
+        
+    </div>
+</article>
+
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="column is-4-desktop is-6-tablet">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <article class="media">
+    <figure class="media-left">
+        
+            <div class="icon is-large">
+                <i class="fas fa-user fa-2x"></i>
+            </div>
+        
+    </figure>
+    <div class="media-content">
+        <div class="content">
+            <p>
+                <strong>Mrs R E View</strong> <small>02/02/2019</small>
+                <br>
+                <strong>Nice, really liked this</strong>
+                <br>
+                The product worked exactly as described. 
+            </p>
+        </div>
+        
+            <div class="content  has-text-left ">
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+    
+    
+    
+</div>
+
+        
+    </div>
+</article>
+
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </section>
+        
+        <section class="hero is-light mt-6">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-centered">
+                        <div class="column is-6">
+                            <h2 class="title mb-4 has-text-centered">Subscribe to the newsletter</h2>
+<form>
+    <label class="label">Email</label>
+    <div class="field has-addons">
+        <div class="control is-expanded">
+            <input class="input is-medium" type="text" type="email">
+        </div>
+        <div class="control">
+            <button class="button is-medium is-primary">Submit</button>
+        </div>
+    </div>
+</form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section my-6">
+            <div class="container">
+                <div class="columns is-multiline is-centered">
+                    <div class="column is-full">
+                        <h2 class="title is-3 mb-3 has-text-centered">About the author</h2>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop">
+                        <figure class="image is-square">
+                            <img class="is-rounded" src="https://i.pravatar.cc/400?img=24" alt="The about image alt text">
+                        </figure>
+                    </div>
+                    <div class="column is-8-tablet is-6-desktop">
+                        <div class="content">
+                            <p>Donec semper nunc quis quam elementum sodales. Vestibulum eget eros vel odio cursus posuere non nec felis. Nunc porta justo odio, in posuere turpis porttitor id. Morbi fringilla, nisi quis facilisis lobortis, eros sem venenatis arcu, vitae varius est felis eu leo. Donec eleifend sapien in arcu mollis egestas. Fusce consectetur nibh in leo elementum cursus.</p>
+
+<p>Etiam in neque quis quam tristique bibendum eu eu lorem. Nulla facilisi. Morbi cursus lacinia suscipit. Maecenas accumsan purus urna, sit amet finibus ligula pellentesque eu. Vivamus risus dui, sagittis id est nec, volutpat rhoncus orci. Nulla fermentum aliquet lectus at congue. Aenean congue elementum libero nec suscipit. Phasellus sed diam ex. Integer et posuere sem.</p>
+
+<h3 id="maecenas-lacinia-lobortis-lacus-sed-gravida">Maecenas lacinia lobortis lacus sed gravida</h3>
+
+<p>Nunc in nisl at purus mollis vulputate. Sed tincidunt tincidunt risus eget iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum vehicula maximus. Praesent convallis in lectus sit amet viverra. Etiam nec semper dolor, ut varius tortor. Aliquam at varius erat, non tempor urna. Maecenas porta porta nibh.</p>
+
+<h3 id="creating-a-promo-page">Creating a promo page</h3>
+
+<p>See the documentation for <a href="/bulma-clean-theme/docs/promo-pages/creating-a-promo-page">creating a promo page</a>.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+            </div>
+        
+
+        
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>
