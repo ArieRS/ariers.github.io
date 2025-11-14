@@ -1,0 +1,541 @@
+<!doctype html>
+
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    class="  theme-light "
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Creating a Links page | Bulma Clean Theme</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Creating a Links page" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This is my personal website where I share my projects, blog posts, and more." />
+<meta property="og:description" content="This is my personal website where I share my projects, blog posts, and more." />
+<link rel="canonical" href="http://localhost:4000/bulma-clean-theme-1.3.0/docs/links-pages/creating-a-links-page/" />
+<meta property="og:url" content="http://localhost:4000/bulma-clean-theme-1.3.0/docs/links-pages/creating-a-links-page/" />
+<meta property="og:site_name" content="Bulma Clean Theme" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Creating a Links page" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"This is my personal website where I share my projects, blog posts, and more.","headline":"Creating a Links page","url":"http://localhost:4000/bulma-clean-theme-1.3.0/docs/links-pages/creating-a-links-page/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts -->
+</head>
+
+    <body>
+        <a href="#main-content" class="is-sr-only skip-link"> Skip to main content </a>
+
+        
+            <div class="">
+    <div class="container py-6 px-4" id="cookieBanner">
+        <div class="columns">
+            <div class="column is-fullwidth ">
+                <div class="content">
+                    <p>We use cookies on this site to enhance your user experience</p>
+                    <p>
+                        By clicking the Accept button, you agree to us doing so.
+                        <a href="/cookie-policy/">More info on our cookie policy</a>
+                    </p>
+                </div>
+
+                <div class="buttons mt-4">
+                    <button class="button is-primary" onclick="acceptCookies()">Accept all cookies</button>
+                    <button class="button is-primary" onclick="rejectCookies()">Reject all cookies</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            Cookies.set('cookiesAccepted', 'true', {expires: 365, path: '/'});
+            toggleCookieBanner();
+        }
+
+        function rejectCookies() {
+            Cookies.set('showCookieBanner', 'false', { expires: 365, path: '/' });
+            toggleCookieBanner();
+        }
+
+        function toggleCookieBanner() {
+            var showBanner = Cookies.get('showCookieBanner');
+            var banner = document.getElementById('cookieBanner');
+
+            if (showBanner === 'false') {
+                banner.setAttribute('style', 'display: none;');
+            } else {
+                banner.setAttribute('style', 'display: block;');
+            }
+        }
+
+        toggleCookieBanner();
+    </script>
+</div>
+
+        
+        <nav
+    class="navbar is-primary "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Bulma Clean Theme
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+            </div>
+
+            <div class="navbar-end">
+                
+                    <a class="navbar-item" href="https://github.com/sponsors/chrisrhymes">
+                        <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
+                        <span>Sponsor</span>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        
+            <section
+    class="hero  is-medium  is-bold is-primary"
+    
+>
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Creating a Links page</h1>
+            <p class="subtitle is-3">Links Pages</p>
+            
+        </div>
+    </div>
+</section>
+
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                        <div class="column is-4-desktop is-4-tablet">
+                            
+
+<aside class="menu">
+    
+        <p class="menu-label">Getting Started</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/getting-started/installation/" class="">Installation</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/getting-started/upgrading-to-v1/" class="">Upgrading to v1</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/getting-started/configuration/" class="">Configuration</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/getting-started/theming/" class="">Theming</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/getting-started/sidebar/" class="">Sidebar</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/getting-started/scripts/" class="">Scripts</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Navigation</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/navigation/top-navigation/" class="">Top navigation</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/navigation/footer-navigation/" class="">Footer navigation</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/navigation/menubar/" class="">Menubar</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Pages</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/pages/creating-a-page/" class="">Creating a page</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/pages/hero/" class="">Hero</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/pages/table-of-contents/" class="">Table of Contents</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Promo Pages</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/promo-pages/creating-a-promo-page/" class="">Creating a promo page</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Links Pages</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/links-pages/creating-a-links-page/" class="">Creating a links page</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Posts</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/posts/creating-a-post/" class="">Creating a Post</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/posts/post-excerpt-summary/" class="">Excerpt & Summary</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/posts/post-series/" class="">Series</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Page Components</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/page-components/callouts/" class="">Callouts</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/cookie-banner/" class="">Cookie Banner</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/image-gallery/" class="">Image Gallery</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/image-modal/" class="">Image Modal</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/notifications/" class="">Notifications</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/showcases/" class="">Showcases</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/sponsors/" class="">Sponsors</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/tabs/" class="">Tabs</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/tags/" class="">Tags</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/page-components/video/" class="">Video</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Products</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/products/product-pages/" class="">Product Pages</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/products/product-reviews/" class="">Product Reviews</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="/docs/products/category-page/" class="">Category Page</a>
+                    
+                </li>
+            
+        </ul>
+    
+        <p class="menu-label">Recipes</p>
+        <ul class="menu-list">
+            
+                <li>
+                    <a href="/docs/recipes/recipes/" class="">Recipes</a>
+                    
+                </li>
+            
+        </ul>
+    
+</aside>
+
+                        </div>
+                    
+                    <main class="column is-8" id="main-content">
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+    
+    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#creating-the-page">Creating the page</a></li>
+</ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <h2 id="introduction">Introduction</h2>
+
+<p>A links page is designed to provide an overview of your most important links. It is ideal to link to from your social media page where you can only create one link.</p>
+
+<p><a href="/bulma-clean-theme/links/">View the demo links page</a></p>
+
+<h2 id="creating-the-page">Creating the page</h2>
+
+<p>Create a new markdown file and assign the layout of <code class="language-plaintext highlighter-rouge">links</code> in the front matter.</p>
+
+<p>You can provide an optional background_image. If you don’t then it will default to the dark background colour.</p>
+
+<p>Set an avatar and avatar_alt text for the image at the top of the page. Ideally this should match your social media profile image.</p>
+
+<p>The title will be your name or organisation, with the subtitle being optional text to explain the page.</p>
+
+<p>The links are grouped by sections to allow you to group them into related links.</p>
+
+<p>Each link needs a name, link, image and image alt text. You can optionally set the image_large to true to change the layout to have a larger background image for the link to help it stand out against other standard links.</p>
+
+<p>See the below example for how the front matter should be formatted.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layout</span><span class="pi">:</span> <span class="s">links</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Your name here</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s">An example links page</span>
+<span class="na">avatar</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/64/300/300</span>
+<span class="na">avatar_alt</span><span class="pi">:</span> <span class="s">An image of a person</span>
+<span class="na">background_image</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/66/1600/2000</span>
+
+<span class="na">link_sections</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">The section title</span>
+    <span class="na">links</span><span class="pi">:</span> 
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Read the docs</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s">/docs/</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/69/300/300</span>
+        <span class="na">image_alt</span><span class="pi">:</span> <span class="s">An example image</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Read the Blog</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s">/blog/</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/70/300/300</span>
+        <span class="na">image_alt</span><span class="pi">:</span> <span class="s">An example image</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Another section title</span>
+    <span class="na">links</span><span class="pi">:</span> 
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="pi">|-</span>
+          <span class="s">An example with a larger image link.</span>
+          
+          <span class="s">This can have a bit more text than the standard links.</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s">/docs/</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/84/600/600</span>
+        <span class="na">image_alt</span><span class="pi">:</span> <span class="s">An example image</span>
+        <span class="na">image_large</span><span class="pi">:</span> <span class="kc">true</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Read the Blog</span>
+        <span class="na">link</span><span class="pi">:</span> <span class="s">/blog/</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">https://picsum.photos/id/72/300/300</span>
+        <span class="na">image_alt</span><span class="pi">:</span> <span class="s">An example image</span>
+</code></pre></div></div>
+
+</div>
+
+                    </main>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+            </div>
+        
+
+        
+    <div class="buttons is-centered mt-6 mb-6">
+        
+            <a href="https://www.facebook.com/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <span class="is-sr-only">Facebook</span>
+                </span>
+            </a>
+        
+        
+            <a href="https://www.instagram.com/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <span class="is-sr-only">Instagram</span>
+                </span>
+            </a>
+        
+        
+            <a href="https://www.threads.net/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-threads fa-xl"></i>
+                    <span class="is-sr-only">Threads</span>
+                </span>
+            </a>
+        
+        
+            <a href="https://www.tiktok.com/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-tiktok fa-xl"></i>
+                    <span class="is-sr-only">TikTok</span>
+                </span>
+            </a>
+        
+        
+            <a href="https://www.x.com/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-x-twitter fa-xl"></i>
+                    <span class="is-sr-only">X/Twitter</span>
+                </span>
+            </a>
+        
+        
+            <a href="https://www.youtube.com/" class="button is-medium">
+                <span class="icon is-medium">
+                    <i class="fa-brands fa-youtube fa-xl"></i>
+                    <span class="is-sr-only">YouTube</span>
+                </span>
+            </a>
+        
+    </div>
+
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+        
+        <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>

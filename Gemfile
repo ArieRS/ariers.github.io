@@ -1,7 +1,11 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
+# gemspec
+
+gem "jekyll", "~> 4.3"
+# gem "bulma-clean-theme", "~> 1.3.0"
+gem "bulma-clean-theme", path: "bulma-clean-theme-1.3.0"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"
@@ -9,7 +13,7 @@ group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "jekyll-seo-tag"
     gem 'jekyll-redirect-from'
-    gem "jekyll", "~> 4.3"
-    #gem "bulma-clean-theme", path: "_themes/bulma-clean-theme-1.3.0"
+    
+    
 end
 
