@@ -4,8 +4,8 @@ source "https://rubygems.org"
 # gemspec
 
 gem "jekyll", "~> 4.3"
-# gem "bulma-clean-theme", "~> 1.3.0"
-gem "bulma-clean-theme", path: "bulma-clean-theme-1.3.0"
+gem "bulma-clean-theme", "~> 1.3.0"
+# gem "bulma-clean-theme", path: "bulma-clean-theme-1.3.0"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"
