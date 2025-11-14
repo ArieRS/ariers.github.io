@@ -10,7 +10,7 @@ url: "https://www.csrhymes.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
 # gh_sponsor: chrisrhymes
-theme: ./_themes/bulma-clean-theme
+# theme: ./_themes/bulma-clean-theme
 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
@@ -28,6 +28,8 @@ paginate_path: "/blog/page:num"
 #   # shortname: my_disqus_shortname
 #   shortname: csrhymes
 
+remote_theme: ArieRS/bulma-clean-theme
+  
 
 plugins:
   - jekyll-sitemap
@@ -36,6 +38,7 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 exclude: 
   - Gemfile
